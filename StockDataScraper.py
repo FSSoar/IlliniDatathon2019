@@ -5,7 +5,7 @@ import csv
 from time import sleep
 
 tickers = ["MMM", "BAYZF", "SYF", "HON"]
-functions = ["SMA", "EMA", "MACD", "RSI", "ADX"]#, "CCI", "AROON", "BBANDS", "AD", "OBV", "WMA", "APO"
+functions = ["HT_TRENDLINE", "HT_SINE", "HT_TRENDMODE", "HT_DCPERIOD", "HT_DCPHASE"]#, "CCI", "AROON", "BBANDS", "AD", "OBV", "WMA", "APO"
 
 
 
@@ -38,8 +38,8 @@ for ticker in tickers:
     # print(list(dataForStock["2019-02-15"].values()))
 
     
-    with open(ticker + 'firstFive.csv', mode='w') as stockFile:
-        headers = ["DATE", "SMA", "EMA", "MACD", "RSI", "ADX"]
+    with open(ticker + 'secondFive.csv', mode='w') as stockFile:
+        headers = ["DATE", "HT_TRENDLINE", "HT_SINE", "HT_TRENDMODE", "HT_DCPERIOD", "HT_DCPHASE"]
         stockWriter = csv.DictWriter(stockFile, fieldnames=headers)
         # stockWriter.writerow(function)s
         stockWriter.writeheader()
