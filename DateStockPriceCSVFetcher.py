@@ -2,9 +2,11 @@ import requests
 import os
 
 def getCSVData(function, symbol):
-    
-    url = "https://www.alphavantage.co/query?function="+function+"&symbol="+symbol+"&datatype=csv"+"&apikey=UMB1WO6HDSOV980F"
-    filename = symbol + ".csv"
+    if function == "TIME_SERIES_DAILY" :
+        url = "https://www.alphavantage.co/query?function="+function+"&symbol="+symbol+"&datatype=csv"+"&apikey=UMB1WO6HDSOV980F"
+    if function == "TIME_SERIES_INTRADAY":
+        url = "https://www.alphavantage.co/query?function="+function+"&symbol="+symbol+"&interval=5min"+"&datatype=csv"+"&outputsize=compact"+"&apikey=UMB1WO6HDSOV980F"
+    filename = symbol + "-" + function + ".csv"
     if not os.path.isfile(filename):
         print('Downloading File')
         response = requests.get(url)
@@ -18,4 +20,4 @@ def getCSVData(function, symbol):
     else:
         print('File exists')
 
-getCSVData("TIME_SERIES_DAILY", "BAYZF")
+getCSVData("TIME_SERIES_INTRADAY", "BAYZF")
