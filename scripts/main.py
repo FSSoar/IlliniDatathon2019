@@ -69,7 +69,7 @@ def load_sp500(input_size, num_steps, k=None, target_symbol=None, test_ratio=0.0
         StockDataSet(row['symbol'],
                      input_size=input_size,
                      num_steps=num_steps,
-                     test_ratio=0.05)
+                     test_ratio=0.00)
         for _, row in info.iterrows()]
 
 

@@ -1,6 +1,8 @@
 """
 @author: lilianweng
 """
+import math
+
 import numpy as np
 import os
 import random
@@ -9,6 +11,7 @@ import shutil
 import time
 import tensorflow as tf
 import matplotlib
+
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
@@ -53,6 +56,7 @@ class LstmRNN(object):
         self.plots_dir = plots_dir
 
         self.build_graph()
+        self.RMSE = -100
 
     def build_graph(self):
         """
@@ -88,7 +92,7 @@ class LstmRNN(object):
                 tf.random_uniform([self.stock_count, self.embed_size], -1.0, 1.0),
                 name="embed_matrix"
             )
-            
+
             # stock_label_embeds.shape = (batch_size, embedding_size)
             stacked_symbols = tf.tile(self.symbols, [1, self.num_steps], name='stacked_stock_labels')
             stacked_embeds = tf.nn.embedding_lookup(self.embed_matrix, stacked_symbols)
@@ -213,7 +217,7 @@ class LstmRNN(object):
         for epoch in xrange(config.max_epoch):
             epoch_step = 0
             learning_rate = config.init_learning_rate * (
-                config.learning_rate_decay ** max(float(epoch + 1 - config.init_epoch), 0.0)
+                    config.learning_rate_decay ** max(float(epoch + 1 - config.init_epoch), 0.0)
             )
 
             for label_, d_ in enumerate(dataset_list):
@@ -244,7 +248,9 @@ class LstmRNN(object):
                                 sample_sym, epoch, epoch_step))
                             sample_preds = test_pred[indices]
                             sample_truth = merged_test_y[indices]
+                            self.RMSE = self.rmse(sample_preds[:45], sample_truth[:45])
                             self.plot_samples(sample_preds, sample_truth, image_path, stock_sym=sample_sym)
+
 
                         self.save(global_step)
 
@@ -319,6 +325,7 @@ class LstmRNN(object):
         plt.legend(loc='upper left', frameon=False)
         plt.xlabel("day")
         plt.ylabel("normalized price")
+        plt.text(0, .03, self.RMSE)
         plt.ylim((min(truths), max(truths)))
         plt.grid(ls='--')
 
@@ -327,3 +334,6 @@ class LstmRNN(object):
 
         plt.savefig(figname, format='png', bbox_inches='tight', transparent=True)
         plt.close()
+
+    def rmse(self, x, y):
+        return math.sqrt(((x - y) ** 2).mean())
