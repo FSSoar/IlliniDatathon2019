@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8af421a9-336e-4e09-b117-5af741672e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1255.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1255.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1255.index" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1255.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1255.meta" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1255.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1321.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1321.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1321.index" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1321.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1321.meta" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1321.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1387.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1387.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1387.index" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1387.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1387.meta" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1387.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1453.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1453.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1453.index" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1453.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1453.meta" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1453.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1500.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1500.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1500.index" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1500.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1500.meta" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-1500.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/model_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/model_rnn.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/model_rnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="236" column="86" lean-forward="true" selection-start-line="236" selection-start-column="86" selection-end-line="236" selection-end-column="86" />
+              <folding>
+                <element signature="e#28#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/train_model.py" />
+        <option value="$PROJECT_DIR$/scripts/model_rnn.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IlliniDatathon2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IlliniDatathon2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IlliniDatathon2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IlliniDatathon2019" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IlliniDatathon2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IlliniDatathon2019" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8af421a9-336e-4e09-b117-5af741672e51" name="Default Changelist" comment="" />
+      <created>1550375132528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550375132528</updated>
+      <workItem from="1550375135099" duration="1171000" />
+      <workItem from="1550376336417" duration="778000" />
+      <workItem from="1550377238697" duration="579000" />
+      <workItem from="1550378666758" duration="583000" />
+      <workItem from="1550379407122" duration="183000" />
+      <workItem from="1550379629551" duration="2820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6114000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21916972" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/final_predictions.SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-pip.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/train_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#87#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/build_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/data_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch66_step0001.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch46_step0005.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch56_step0003.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch29_step0015.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch26_step0009.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch23_step0003.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch42_step0019.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch69_step0007.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch36_step0007.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch70_step0001.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch72_step0013.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch73_step0003.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch72_step0001.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch56_step0001.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch40_step0041.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/model_rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="236" column="86" lean-forward="true" selection-start-line="236" selection-start-column="86" selection-end-line="236" selection-end-column="86" />
+          <folding>
+            <element signature="e#28#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
