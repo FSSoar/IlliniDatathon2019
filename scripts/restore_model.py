@@ -34,3 +34,8 @@ def prediction_by_trained_graph(graph_name, max_epoch, test_X, test_y):
         test_prediction, test_loss = sess.run([prediction, loss], test_feed_dict)
 
     return test_prediction, test_loss
+
+
+
+if __name__ == '__main__':
+    prediction_by_trained_graph()

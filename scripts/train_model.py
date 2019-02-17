@@ -14,7 +14,7 @@ from data_model import StockDataSet
 
 def load_data(stock_name, input_size, num_steps):
     stock_dataset = StockDataSet(stock_name, input_size=input_size, num_steps=num_steps,
-                                 test_ratio=0.1, close_price_only=True)
+                                 test_ratio=0.2, close_price_only=False)
     print "Train data size:", len(stock_dataset.train_X)
     print "Test data size:", len(stock_dataset.test_X)
     return stock_dataset
@@ -114,7 +114,7 @@ def train_lstm_graph(stock_name, lstm_graph, config=DEFAULT_CONFIG):
 
 def main(config=DEFAULT_CONFIG):
     lstm_graph = build_lstm_graph_with_config(config=config)
-    train_lstm_graph('SP500', lstm_graph, config=config)
+    train_lstm_graph('HON', lstm_graph, config=config)
 
 
 if __name__ == '__main__':

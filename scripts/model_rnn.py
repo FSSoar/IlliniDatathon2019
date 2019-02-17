@@ -217,7 +217,7 @@ class LstmRNN(object):
         for epoch in xrange(config.max_epoch):
             epoch_step = 0
             learning_rate = config.init_learning_rate * (
-                    config.learning_rate_decay ** max(float(epoch + 1 - config.init_epoch), 0.0)
+                    config.learning_rate_decay ** max(float(epoch + 1 - config.init_epoch), 0.)
             )
 
             for label_, d_ in enumerate(dataset_list):
