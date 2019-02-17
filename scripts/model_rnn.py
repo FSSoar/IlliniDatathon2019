@@ -248,7 +248,7 @@ class LstmRNN(object):
                                 sample_sym, epoch, epoch_step))
                             sample_preds = test_pred[indices]
                             sample_truth = merged_test_y[indices]
-                            self.RMSE = self.rmse(sample_preds[:45], sample_truth[:45])
+                            self.RMSE = self.rmse(sample_preds, sample_truth)
                             self.plot_samples(sample_preds, sample_truth, image_path, stock_sym=sample_sym)
 
 

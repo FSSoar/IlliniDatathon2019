@@ -114,7 +114,7 @@ def train_lstm_graph(stock_name, lstm_graph, config=DEFAULT_CONFIG):
 
 def main(config=DEFAULT_CONFIG):
     lstm_graph = build_lstm_graph_with_config(config=config)
-    train_lstm_graph('SP500', lstm_graph, config=config)
+    train_lstm_graph('HON', lstm_graph, config=config)
 
 
 if __name__ == '__main__':

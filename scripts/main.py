@@ -38,7 +38,7 @@ def show_all_variables():
     slim.model_analyzer.analyze_vars(model_vars, print_info=True)
 
 
-def load_sp500(input_size, num_steps, k=None, target_symbol=None, test_ratio=0.05):
+def load_sp500(input_size, num_steps, k=None, target_symbol=None, test_ratio=0.10):
     if target_symbol is not None:
         return [
             StockDataSet(
@@ -49,7 +49,7 @@ def load_sp500(input_size, num_steps, k=None, target_symbol=None, test_ratio=0.0
         ]
 
     # Load metadata of s & p 500 stocks
-    info = pd.read_csv("data/constituents-financials.csv")
+    info = pd.read_csv("data/combined.csv")
     info = info.rename(columns={col: col.lower().replace(' ', '_') for col in info.columns})
     info['file_exists'] = info['symbol'].map(lambda x: os.path.exists("data/{}.csv".format(x)))
     print info['file_exists'].value_counts().to_dict()
@@ -69,7 +69,7 @@ def load_sp500(input_size, num_steps, k=None, target_symbol=None, test_ratio=0.0
         StockDataSet(row['symbol'],
                      input_size=input_size,
                      num_steps=num_steps,
-                     test_ratio=0.00)
+                     test_ratio=0.05)
         for _, row in info.iterrows()]
 
 
