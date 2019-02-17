@@ -1,2 +1,0 @@
-model_checkpoint_path: "stock_rnn_model_HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75.ckpt-74"
-all_model_checkpoint_paths: "stock_rnn_model_HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75.ckpt-74"

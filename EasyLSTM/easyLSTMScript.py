@@ -4,17 +4,20 @@ import numpy as np
 import pandas as pd
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
+import os
 
-fname = "data/MMM.csv"
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
+fname = "data/HON.csv"
 data_csv = pd.read_csv(fname)
 
 # how many data we will use
 # (should not be more than dataset length )
-data_to_use = 2000
+data_to_use = 2548
 
 # number of training data
 # should be less than data_to_use
-train_end = 1500
+train_end = 2514
 
 total_data = len(data_csv)
 
@@ -22,22 +25,23 @@ total_data = len(data_csv)
 # so need offset
 start = total_data - data_to_use
 
+
 # currently doing prediction only for 1 step ahead
-steps_to_predict = 1
+# steps_to_predict = 30
 
 yt = data_csv.iloc[start:total_data, 4]  # Close price
-yt1 = data_csv.iloc[start:total_data, 1]  # Open
-yt2 = data_csv.iloc[start:total_data, 2]  # High
-yt3 = data_csv.iloc[start:total_data, 3]  # Low
-vt = data_csv.iloc[start:total_data, 6]  # volume
+# yt1 = data_csv.iloc[start:total_data, 1]  # Open
+# yt2 = data_csv.iloc[start:total_data, 2]  # High
+# yt3 = data_csv.iloc[start:total_data, 3]  # Low
+# vt = data_csv.iloc[start:total_data, 6]  # volume
 
 print ("yt head :")
 print (yt.head())
 
-yt_ = yt.shift(-1)
+yt_ = yt.shift(-10)
 
-data = pd.concat([yt, yt_, vt, yt1, yt2, yt3], axis=1)
-data.columns = ['yt', 'yt_', 'vt', 'yt1', 'yt2', 'yt3']
+data = pd.concat([yt, yt_], axis=1)
+data.columns = ['yt', 'yt_']
 
 data = data.dropna()
 
@@ -48,7 +52,7 @@ print (data)
 y = data['yt_']
 
 #       closed,  volume,   open,  high,   low
-cols = ['yt', 'vt', 'yt1', 'yt2', 'yt3']
+cols = ['yt']
 x = data[cols]
 
 scaler_x = preprocessing.MinMaxScaler(feature_range=(-1, 1))
@@ -74,7 +78,7 @@ from keras.layers import Dropout
 seed = 2019
 np.random.seed(seed)
 fit1 = Sequential()
-fit1.add(LSTM(1000, activation='tanh', inner_activation='hard_sigmoid', input_shape=(len(cols), 1)))
+fit1.add(LSTM(500, activation='tanh', inner_activation='hard_sigmoid', input_shape=(len(cols), 1)))
 fit1.add(Dropout(0.2))
 fit1.add(Dense(output_dim=1, activation='linear'))
 
@@ -92,6 +96,14 @@ pred1 = fit1.predict(x_test)
 pred1 = scaler_y.inverse_transform(np.array(pred1).reshape((len(pred1), 1)))
 
 prediction_data = pred1[-1]
+
+# print(len(pred1))
+# predictions = {}
+# for x in range(len(pred1)):
+#     predictions[x] = pred1[x]
+#
+# pred2 = fit1.predict(x_test)
+
 
 fit1.summary()
 print ("Inputs: {}".format(fit1.input_shape))
@@ -123,3 +135,4 @@ ax = plt.axes()
 ax.yaxis.set_major_formatter(tick)
 
 plt.show()
+print(predictions)
