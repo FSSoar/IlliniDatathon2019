@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa4af4cb-40d9-4180-b9b2-b8a8a090cc1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAYZF-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAYZF-TIME_SERIES_INTRADAY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAYZF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/BAYZF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/BAYZFcombined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/BAYZFfirstFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/BAYZFsecondFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/BAYZFthirdFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/HON.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/HONcombined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/HONfirstFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/HONsecondFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/HONthirdFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMM-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMM-TIME_SERIES_DAILYTesting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMMcombined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMMfirstFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMMsecondFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MMMthirdFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MergeCSV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SYF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SYFcombined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SYFfirstFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SYFsecondFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SYFthirdFive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/StockDataScraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyLSTM/data/HON.csv" beforeDir="false" afterPath="$PROJECT_DIR$/EasyLSTM/data/HON.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyLSTM/easyLSTMScript.py" beforeDir="false" afterPath="$PROJECT_DIR$/EasyLSTM/easyLSTMScript.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMM-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMM-TIME_SERIES_DAILYModified.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMM-TIME_SERIES_DAILYTesting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMM-TIME_SERIES_INTRADAY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSFT-TIME_SERIES_INTRADAY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apikey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-pip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DateStockPriceCSVFetcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/AAPL_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50/events.out.tfevents.1550359300.wirelessprv-10-193-74-106.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/HON_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50/events.out.tfevents.1550395264.wirelessprv-10-194-148-5.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75/events.out.tfevents.1550395836.wirelessprv-10-194-148-5.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75/events.out.tfevents.1550399148.wirelessprv-10-194-148-5.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/stock_rnn_lstm128_step30_input1/SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50/events.out.tfevents.1550359356.wirelessprv-10-193-74-106.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/stock_rnn_lstm128_step30_input1/SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50/events.out.tfevents.1550360529.wirelessprv-10-193-74-106.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/stock_rnn_lstm128_step30_input1/SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50/events.out.tfevents.1550364151.wirelessprv-10-193-74-106.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/_logs/stock_rnn_lstm128_step30_input1/SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50/events.out.tfevents.1550367187.wirelessprv-10-193-74-106.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/BAYZF-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/BAYZF-TIME_SERIES_DAILYTesting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/BAYZF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/HON-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/HON-TIME_SERIES_DAILYTesting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/HON.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/MMM-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/MMM-TIME_SERIES_DAILYTesting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/MMM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/SYF-TIME_SERIES_DAILY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/SYF-TIME_SERIES_DAILYTesting.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/SYF.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data/combined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/final_predictions.HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch00_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch05_step0026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch11_step0016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch17_step0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch22_step0031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch28_step0021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch34_step0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch40_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input1/HON_epoch45_step0026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch00_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch05_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch11_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch16_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch22_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch27_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch33_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch38_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch44_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch49_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch55_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch60_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch66_step0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input3/HON_epoch71_step0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/events.out.tfevents.1550397913.wirelessprv-10-194-148-5.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1001.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1001.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1201.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1201.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1201.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1401.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1401.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1401.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1601.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1601.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1601.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1750.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1750.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input1/stock_rnn_lstm128_step30_input1.model-1750.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/events.out.tfevents.1550397849.wirelessprv-10-194-148-5.near.illinois.edu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-661.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-661.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-661.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-727.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-727.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-727.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-793.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-793.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-793.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-859.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-859.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-859.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-900.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-900.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input3/stock_rnn_lstm128_step30_input3.model-900.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/model_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/models/HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/models/HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75/stock_rnn_model_HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75.ckpt-74.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/models/HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75/stock_rnn_model_HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75.ckpt-74.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/models/HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75/stock_rnn_model_HON_lr0.00_lr_decay0.990_lstm128_step30_input3_batch64_epoch75.ckpt-74.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/restore_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_model.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IlliniDatathon2019$easyLSTMScript.coverage" NAME="easyLSTMScript Coverage Results" MODIFIED="1550408898243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EasyLSTM" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EasyLSTM/easyLSTMScript.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+              <folding>
+                <element signature="e#25#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.conda/envs/IlliniDatathon2019/lib/python3.6/site-packages/keras/engine/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="1114" column="8" selection-start-line="1114" selection-start-column="8" selection-end-line="1114" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyLSTM/data/HON.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="97">
+              <caret line="2503" column="8" lean-forward="true" selection-start-line="2503" selection-start-column="8" selection-end-line="2503" selection-end-column="8" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyLSTM/data/MMM.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="320">
+              <caret line="2481" column="29" selection-start-line="2481" selection-start-column="29" selection-end-line="2481" selection-end-column="29" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>steps</find>
+      <find>total_data</find>
+      <find>steps_to_predict</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EasyLSTM/data/MMM.csv" />
+        <option value="$PROJECT_DIR$/EasyLSTM/data/HON.csv" />
+        <option value="$PROJECT_DIR$/EasyLSTM/easyLSTMScript.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IlliniDatathon2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IlliniDatathon2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IlliniDatathon2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IlliniDatathon2019" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyLSTM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IlliniDatathon2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IlliniDatathon2019" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyLSTM" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EasyLSTM" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="easyLSTMScript" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IlliniDatathon2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EasyLSTM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EasyLSTM/easyLSTMScript.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.easyLSTMScript" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa4af4cb-40d9-4180-b9b2-b8a8a090cc1d" name="Default Changelist" comment="" />
+      <created>1550400437984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550400437984</updated>
+      <workItem from="1550400440274" duration="1305000" />
+      <workItem from="1550402027989" duration="101000" />
+      <workItem from="1550402139252" duration="6691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8097000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.22954823" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/data/MMM-TIME_SERIES_DAILY.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-496" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/data/MMM-TIME_SERIES_DAILYTesting.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/data/HON-TIME_SERIES_DAILY.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/data/HON-TIME_SERIES_DAILYTesting.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/data/MMM.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="320">
+          <caret line="2481" column="29" selection-start-line="2481" selection-start-column="29" selection-end-line="2481" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/1823193184/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1172" column="8" selection-start-line="1172" selection-start-column="8" selection-end-line="1172" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/data/HON.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="97">
+          <caret line="2503" column="8" lean-forward="true" selection-start-line="2503" selection-start-column="8" selection-end-line="2503" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/IlliniDatathon2019/lib/python3.6/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1114" column="8" selection-start-line="1114" selection-start-column="8" selection-end-line="1114" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyLSTM/easyLSTMScript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
