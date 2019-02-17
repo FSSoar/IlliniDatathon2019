@@ -1,75 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8af421a9-336e-4e09-b117-5af741672e51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch00_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch00_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch10_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch10_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch20_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch20_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch30_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch30_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch40_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch40_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch50_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch50_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch60_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch60_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch70_step0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input10/HON_epoch70_step0001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch00_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch02_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch04_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch06_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch08_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch10_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch12_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch14_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch16_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch18_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch20_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch22_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch24_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch26_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch28_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch30_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch32_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch34_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch36_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch38_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch40_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch42_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch44_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch46_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch48_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch50_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch52_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch54_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch56_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch58_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch60_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch62_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch64_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch66_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch68_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch70_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch72_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input100/HON_epoch74_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch00_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch04_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch08_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch12_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch16_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch20_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch24_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch28_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch32_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch36_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch40_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch44_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch48_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch52_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch56_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch60_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch64_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch68_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images/stock_rnn_lstm128_step30_input50/HON_epoch72_step0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input10/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/logs/stock_rnn_lstm128_step30_input10/checkpoint" afterDir="false" />
-    </list>
+    <list default="true" id="8af421a9-336e-4e09-b117-5af741672e51" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,12 +149,12 @@
       <workItem from="1550377238697" duration="579000" />
       <workItem from="1550378666758" duration="583000" />
       <workItem from="1550379407122" duration="183000" />
-      <workItem from="1550379629551" duration="6736000" />
+      <workItem from="1550379629551" duration="6803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10030000" />
+    <option name="totallyTimeSpent" value="10097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
