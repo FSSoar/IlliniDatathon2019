@@ -5,7 +5,7 @@ def getCSVData(function, symbol):
     if function == "TIME_SERIES_DAILY" :
         url = "https://www.alphavantage.co/query?function="+function+"&symbol="+symbol+"&datatype=csv"+"&outputsize=compact"+"&apikey=UMB1WO6HDSOV980F"
     if function == "TIME_SERIES_INTRADAY":
-        url = "https://www.alphavantage.co/query?function="+function+"&symbol="+symbol+"&interval=5min"+"&datatype=csv"+"&outputsize=compact"+"&apikey=UMB1WO6HDSOV980F"
+        url = "https://www.alphavantage.co/query?function="+function+"&symbol="+symbol+"&interval=1min"+"&datatype=csv"+"&outputsize=full"+"&apikey=VRC35Q4ME9BN01BF"
     filename = symbol + "-" + function + ".csv"
     if not os.path.isfile(filename):
         print('Downloading File')
@@ -20,4 +20,4 @@ def getCSVData(function, symbol):
     else:
         print('File exists')
 
-getCSVData("TIME_SERIES_DAILY", "BAYZF")
+getCSVData("TIME_SERIES_INTRADAY", "MMM")

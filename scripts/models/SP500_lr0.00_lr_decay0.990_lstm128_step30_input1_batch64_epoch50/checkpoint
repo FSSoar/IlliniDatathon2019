@@ -1,0 +1,2 @@
+model_checkpoint_path: "stock_rnn_model_SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50.ckpt-49"
+all_model_checkpoint_paths: "stock_rnn_model_SP500_lr0.00_lr_decay0.990_lstm128_step30_input1_batch64_epoch50.ckpt-49"
