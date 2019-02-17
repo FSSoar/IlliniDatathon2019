@@ -3,8 +3,8 @@ import os
 import csv
 def getCSVData(function, symbol):
     try:
-        os.remove(symbol + "-" + function + ".csv")
-        os.remove(symbol + "-" + function + "Testing.csv")
+        os.remove("data/" + symbol + "-" + function + ".csv")
+        os.remove("data/" + symbol + "-" + function + "Testing.csv")
     except:
         pass
     if function == "TIME_SERIES_DAILY" :
@@ -15,7 +15,7 @@ def getCSVData(function, symbol):
     else:
         # url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=" + symbol + "&datatype=csv&apikey=VRC35Q4ME9BN01BF"
         pass
-    filename = symbol + "-" + function + ".csv"
+    filename = "data/" + symbol + "-" + function + ".csv"
     if not os.path.isfile(filename):
         print('Downloading File')
         response = requests.get(url)
@@ -30,7 +30,7 @@ def getCSVData(function, symbol):
     else:
         print('File exists')
 
-    with open(symbol + "-" + function + ".csv", 'r') as inp, open(symbol + "-" + function + "Testing.csv", 'w') as out:
+    with open("data/" + symbol + "-" + function + ".csv", 'r') as inp, open("data/" + symbol + "-" + function + "Testing.csv", 'w') as out:
         writer = csv.writer(out)
         for row in csv.reader(inp):
             
