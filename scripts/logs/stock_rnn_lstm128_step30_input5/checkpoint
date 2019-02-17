@@ -1,6 +1,0 @@
-model_checkpoint_path: "stock_rnn_lstm128_step30_input5.model-900"
-all_model_checkpoint_paths: "stock_rnn_lstm128_step30_input5.model-761"
-all_model_checkpoint_paths: "stock_rnn_lstm128_step30_input5.model-801"
-all_model_checkpoint_paths: "stock_rnn_lstm128_step30_input5.model-841"
-all_model_checkpoint_paths: "stock_rnn_lstm128_step30_input5.model-881"
-all_model_checkpoint_paths: "stock_rnn_lstm128_step30_input5.model-900"
